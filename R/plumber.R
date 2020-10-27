@@ -19,7 +19,6 @@ function() {
 
 #* Predict penguin species based on input data
 #* @parser json
-#* @serializer csv
 #* @post /predict
 function(req, res) {
   # req$body is the parsed input
