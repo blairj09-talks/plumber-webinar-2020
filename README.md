@@ -3,13 +3,11 @@
 
 # Plumber Webinar
 
-<!--
-Screenshot of title slide
--->
+[![](img/title-slide.jpg)](slides/slides.pdf)
 
 This webinar highlights using [Plumber](https://www.rplumber.io/) to
-solve a common set of data problems while also highlighting features
-added in version 1.0.0.
+solve a common set of data science problems while also highlighting
+features added in version 1.0.0 of the Plumber package.
 
 ## Environment
 
