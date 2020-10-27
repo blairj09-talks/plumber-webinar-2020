@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.0.2",
+    "Version": "4.0.3",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -592,10 +592,10 @@
     },
     "nlme": {
       "Package": "nlme",
-      "Version": "3.1-149",
+      "Version": "3.1-150",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7c24ab3a1e3afe50388eb2d893aab255"
+      "Hash": "82e52d2c6e674764ffb122d084afa96b"
     },
     "nnet": {
       "Package": "nnet",
@@ -624,6 +624,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "285ca01e793958ac6f2c264c84dbb16b"
+    },
+    "packrat": {
+      "Package": "packrat",
+      "Version": "0.5.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "2ebd34a38f4248281096cc723535b66d"
     },
     "palmerpenguins": {
       "Package": "palmerpenguins",
@@ -669,10 +676,15 @@
     },
     "plumber": {
       "Package": "plumber",
-      "Version": "1.0.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "4d095c702eaa44af48ad6b2a7b48753e"
+      "Version": "1.0.0.9999",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "plumber",
+      "RemoteUsername": "blairj09",
+      "RemoteRef": "swagger-redirect",
+      "RemoteSha": "0781598bcb8a8760f8a3e248031e77a797afe17c",
+      "Hash": "488b6e8837906b922a330b17ad1b6df0"
     },
     "plyr": {
       "Package": "plyr",
@@ -744,6 +756,18 @@
       "Repository": "CRAN",
       "Hash": "561326df07a5bc5266ba17ce3b81cbf1"
     },
+    "rapidoc": {
+      "Package": "rapidoc",
+      "Version": "8.1.2",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "rapidoc",
+      "RemoteUsername": "meztez",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "ede25643d59267c500611130957a8cd903e76a76",
+      "Hash": "91b2bf5e794020da244987f4232f73e4"
+    },
     "readr": {
       "Package": "readr",
       "Version": "1.4.0",
@@ -779,6 +803,13 @@
       "Repository": "CRAN",
       "Hash": "76c9e04c712a05848ae7a23d2f170a40"
     },
+    "remotes": {
+      "Package": "remotes",
+      "Version": "2.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "430a0908aee75b1fcba0e62857cab0ce"
+    },
     "renv": {
       "Package": "renv",
       "Version": "0.12.0",
@@ -795,17 +826,22 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "0.4.7",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "c06d2a6887f4b414f8e927afd9ee976a"
+      "Version": "0.4.8.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "rlang",
+      "RemoteUsername": "r-lib",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "4e2bbe18695d9fd17951e9d7ae92535eb095ff6d",
+      "Hash": "26e60a576c48b431f82361c10f97437f"
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.4",
+      "Version": "2.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ec8febc2bd653b754d5b03c9d4b996bb"
+      "Hash": "20a0a94af9e8f7040510447763aab3e9"
     },
     "rpart": {
       "Package": "rpart",
@@ -827,6 +863,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "a05b5f1136fb3e22efe51e85369c041c"
+    },
+    "rsconnect": {
+      "Package": "rsconnect",
+      "Version": "0.8.16",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "3924a1c20ce2479e89a08b0ca4c936c6"
     },
     "rstudioapi": {
       "Package": "rstudioapi",
