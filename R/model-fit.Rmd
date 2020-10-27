@@ -41,7 +41,7 @@ model
 ```
 
 ```{r}
-predict(model, new_data = filtered_penguins, type = "prob")
+predict(model, new_data = head(filtered_penguins), type = "prob")
 ```
 
 ## Model Performance
