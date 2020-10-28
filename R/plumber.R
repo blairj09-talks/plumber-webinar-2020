@@ -6,8 +6,13 @@ library(rapidoc)
 library(parsnip)
 library(ranger)
 
-# Load model
+# Load model ----
 model <- readr::read_rds("model.rds")
+
+# Goal ----
+# predict(model, 
+#         new_data = jsonlite::read_json("penguins.json", 
+#                                        simplifyVector = TRUE))
 
 #* @apiTitle Penguin Predictions
 
