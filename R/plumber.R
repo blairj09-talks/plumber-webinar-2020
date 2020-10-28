@@ -14,11 +14,13 @@ model <- readr::read_rds("model.rds")
 #* Determine if the API is running and listening as expected
 #* @get /health-check
 function() {
-  "All Good"
+  list(status = "All Good",
+       time = Sys.time())
 }
 
 #* Predict penguin species based on input data
 #* @parser json
+#* @serializer csv
 #* @post /predict
 function(req, res) {
   # req$body is the parsed input
