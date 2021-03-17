@@ -3,7 +3,7 @@ servers:
 openapi: 3.0.3
 info:
   description: API Description
-  title: Penguin Predictions
+  title: Penguin Predictions (New)
   version: 1.0.0
 paths:
   /health-check:
